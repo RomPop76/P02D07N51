@@ -7,8 +7,40 @@
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
  <title>Document</title>
  <style>
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
   img {
-   width: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+  img:nth-child(2) {
+    animation: baner 5s linear infinite;
+  }
+
+  @keyframes baner {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
   }
  </style>
 </head>
